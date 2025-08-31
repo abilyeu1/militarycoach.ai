@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "react-responsive-modal/styles.css";
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.bouncing-image {
+  animation: bounce 1s infinite;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+pre {
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.progressBar {
+  background: var(--neutral-4, #f0f0f0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.circleButton {
+  fill: var(--neutral-4, #f0f0f0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.css-1p3m7a8-multiValue {
+  border: 1px solid #adadad !important;
+  border-radius: 17px !important;
+  background-color: transparent !important;
+  padding: 0px 3px !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #63b017 !important;
+  font-weight: 700;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  background: none !important;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background: none !important;
+  position: absolute;
+  right: -91%;
+  top: -5px;
+}
+pre {
+  white-space: pre-line !important;
+}
+
+.chip {
+  background: #63b017 !important;
+}
+
+.highlightOption {
+  background: #63b017 !important;
+}
+
+.multiSelectContainer li:hover {
+  background: #63b017 !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+.multiSelectContainer input {
+  padding-left: 10px !important;
+  height: 40px !important;
+}
+
+.searchWrapper {
+  width: 100% !important;
+  border-radius: 5px;
+  min-height: 55px !important;
+}
+
+.custom-multiselect > div {
+  width: 100%;
+}
+
+.guZdik {
+  max-width: 100% !important;
+  border: dashed 2px #5c5c5c !important;
+  height: 150px !important;
+}
+
+label.sc-aXZVg.guZdik {
+  background-color: #ececec !important;
+}
+
+@keyframes custom-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.slide {
+  transition-property: transform;
+}
+
+.custom-spin {
+  animation: custom-spin 2s linear infinite; /* Change '2s' to adjust the speed */
+}
+
+.App {
+  padding: 50px 20px;
+}
+
+/* Custom CSS for scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #77af3e; /* Thumb color */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d1d5db; /* Track color */
+}
+
+@media only screen and (max-width: 1825px) {
+  button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background: none !important;
+    position: absolute;
+    right: -80%;
+    top: -5px;
+  }
+}
+
+/* Styling for underlined text */
+.markdown-content a {
+  text-decoration: underline;
+  color: #63b017;
+  font-weight: bold;
+}
+
+.markdown-content a[target="_blank"]::after {
+  content: "\2197"; /* Unicode for an arrow or any icon */
+  margin-left: 0.2em;
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+
+a.external-link {
+  color: #63b017;
+  font-weight: bold;
+}
+.css-13cymwt-control {
+  height: 54px;
+  background: transparent !important;
+}
+.css-1p3m7a8-multiValue {
+  background-color: #63b017 !important;
+  color: #fff !important;
+}
+.css-wsp0cs-MultiValueGeneric {
+  color: #fff !important;
+}
+
+.css-12a83d4-MultiValueRemove:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
